@@ -1,0 +1,17 @@
+<ion-view cache-view="false" title="Ploppin' Feed" ng-init="">
+    <ion-content>
+        <div ng-repeat="usr in images | reverse">
+	        <div class="row">
+	        	<div class="col col-50"><strong>{{usr.user}}</strong></div>
+				<div class="col col-50" style="text-align: right;">{{usr.timestamp | date : format : timezone}}</div>
+			</div>
+			<div ng-if="$index < images.length">
+		        <img ng-src="data:image/jpeg;base64,{{usr.image}}" style="width:100%;height:auto;" />
+			</div>
+			<div class="row">
+	        	<div class="col" style="text-align:center;"><strong>{{usr.caption}}</strong></div>
+			</div>
+			<hr />
+        </div>
+    </ion-content>
+</ion-view>

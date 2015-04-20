@@ -1,0 +1,21 @@
+<ion-view cache-view="false" title="Take A Plopp" ng-init="">
+    <ion-content>
+		<div>
+			<div id="thephoto">
+		        <img ng-src="{{thephoto()}}" style="width:100%;height:auto;" />
+			</div>
+            <div class="padding">
+                <label class="item item-input">
+                	<i class="icon ion-quote placeholder-icon"></i>
+                    <input ng-model="caption" type="text" placeholder="Caption Here" />
+                </label>
+            </div>
+            <div class="padding">
+                <div class="button-bar">
+                    <a class="button button-plopp" ng-click="submitpost(photo,caption)">Plopp It!</a>
+                    <input ng-model="photo" type="hidden" placeholder="Photo Here" />
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

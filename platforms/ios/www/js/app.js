@@ -77,11 +77,11 @@ ploppin.config(function ($stateProvider, $urlRouterProvider) {
   });
   $urlRouterProvider.otherwise('/first');
 });
-ploppin.controller('FirebaseController', function ($scope, $state, $firebaseAuth) {
+ploppin.controller('FirebaseController', function ($scope, $state, $firebaseAuth, $firebaseArray) {
   var fbAuth = $firebaseAuth(fb);
-  $scope.login = function (username, password) {
+  $scope.login = function (email, password) {
     fbAuth.$authWithPassword({
-      email: username,
+      email: email,
       password: password
     }).then(function (authData) {
       $state.go('tab.feed');
@@ -89,16 +89,18 @@ ploppin.controller('FirebaseController', function ($scope, $state, $firebaseAuth
       alert('ERROR: ' + error);
     });
   };
-  $scope.register = function (username, password) {
+  $scope.register = function (email, password, username) {
     fbAuth.$createUser({
-      email: username,
+      email: email,
       password: password
     }).then(function (userData) {
       return fbAuth.$authWithPassword({
-        email: username,
+        email: email,
         password: password
       });
     }).then(function (authData) {
+	  var userReference = fb.child('profiles/'+authData.uid);
+	  userReference.set({ username: username });
       $state.go('tab.feed');
     }).catch(function (error) {
       alert('ERROR: ' + error);
@@ -114,12 +116,16 @@ ploppin.controller('FirstController', function ($scope, $state, $firebaseAuth) {
 	  $state.go('firebase');
   }
 });
-ploppin.controller('SettingsController', function ($scope, $state) {
+ploppin.controller('SettingsController', function ($scope, $state, $firebaseObject) {
 	var fbAuth = fb.getAuth();
-	$scope.user = fbAuth;
+	var userReference = fb.child('profiles/'+fbAuth.uid);
+    $scope.data = $firebaseObject(userReference);
 	$scope.signOut = function() {
     	fb.unauth();
     	$state.go('firebase');
+  	};
+  	$scope.save = function(username) {
+		userReference.set({ username: username });
   	};
 });
 ploppin.controller('FeedController', function ($scope, $state, $ionicHistory, $firebaseArray) {
@@ -127,7 +133,7 @@ ploppin.controller('FeedController', function ($scope, $state, $ionicHistory, $f
   var fbAuth = fb.getAuth();
   if (fbAuth) {
 	
-    var userReference = fb.child('posts');
+    var userReference = fb.child('posts').orderByChild('timestamp');
     var syncArray = $firebaseArray(userReference);
     $scope.images = syncArray;
   } else {

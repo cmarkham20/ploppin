@@ -144,6 +144,7 @@ ploppin.controller('CameraController', function ($scope, $state, $ionicHistory, 
 	var fbAuth = fb.getAuth();
 	var userReference = fb.child('posts');
     var syncArray = $firebaseArray(userReference);
+    $scope.getPhoto = function() {
     var options = {
       quality: 75,
       destinationType: Camera.DestinationType.DATA_URL,
@@ -156,7 +157,6 @@ ploppin.controller('CameraController', function ($scope, $state, $ionicHistory, 
       cameraDirection: 1,
       saveToPhotoAlbum: false
     };
-    $scope.getPhoto = function() {
     $cordovaCamera.getPicture(options).then(function (imageData) {
         $scope.thephoto = function() {
 		    return "data:image/jpeg;base64,"+imageData;

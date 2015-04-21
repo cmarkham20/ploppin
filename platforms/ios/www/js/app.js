@@ -151,8 +151,8 @@ ploppin.controller('CameraController', function ($scope, $state, $ionicHistory, 
       allowEdit: true,
       encodingType: Camera.EncodingType.JPEG,
       popoverOptions: CameraPopoverOptions,
-      targetWidth: 1000,
-      targetHeight: 1000,
+      targetWidth: 300,
+      targetHeight: 300,
       saveToPhotoAlbum: false
     };
     $cordovaCamera.getPicture(options).then(function (imageData) {

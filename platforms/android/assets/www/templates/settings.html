@@ -1,17 +1,25 @@
-<ion-view title="Your Account" ng-init="">
+<ion-view cache-view="false" title="{{data.username}}" ng-init="">
+<!--
     <ion-nav-buttons side="right">
         <button class="button button-icon icon ion-person" ng-click="signOut()"></button>
     </ion-nav-buttons>
+    -->
     <ion-content>
     	<div class="padding">
             <label class="item item-input">
-                <input ng-model="name" type="text" placeholder="Your Name" />
+            	<span class="input-label">Username</span>
+                <input ng-model="data.username" type="text" placeholder="Username" />
             </label>
         </div>
-        <div class="padding-left padding-right">
-                <div class="button-bar">
-                    <a class="button" ng-click="save(name)">Save</a>
-                </div>
+        <div class="padding">
+            <div class="button-bar">
+                <a class="button" ng-click="save(data.username)">Save</a>
             </div>
+        </div>
+        <div class="padding">
+            <div class="button-bar">
+                <a class="button button-assertive" ng-click="signOut()">Logout</a>
+            </div>
+        </div>
     </ion-content>
 </ion-view>

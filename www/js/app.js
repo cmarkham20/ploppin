@@ -158,14 +158,11 @@ ploppin.controller('CameraController', function ($scope, $state, $ionicHistory, 
       saveToPhotoAlbum: false
     };
     $cordovaCamera.getPicture(options).then(function (imageData) {
-        $scope.thephoto = function() {
-		    return "data:image/jpeg;base64,"+imageData;
-		  };
-        $scope.photo = imageData;
+        $scope.thephoto = "data:image/jpeg;base64," + imageData;
     }, function (error) {
       alert(error);
     });
-    };
+};
    $scope.submitpost = function (photo, caption) {
     syncArray.$add({ user: fbAuth.uid, image: photo, caption: caption, timestamp: Firebase.ServerValue.TIMESTAMP }).then(function () {
       $state.go('tab.feed');

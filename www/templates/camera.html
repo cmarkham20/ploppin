@@ -1,7 +1,7 @@
 <ion-view cache-view="false" title="Take A Plopp" ng-init="getPhoto()">
     <ion-content>
 		<div>
-			<div id="thephoto" ng-click="getPhoto()"><img ng-src="{{thephoto()}}" src="img/blank.gif" /></div>
+			<div id="thephoto" ng-click="getPhoto()"><img ng-show="thephoto === undefined" ng-src="img/blank.gif" /><img ng-show="thephoto !== undefined" ng-src="{{thephoto}}" /></div>
             <div class="padding">
                 <label class="item item-input">
                 	<i class="icon ion-quote placeholder-icon"></i>

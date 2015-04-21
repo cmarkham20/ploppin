@@ -31,3 +31,6 @@ color: #44200a !important;
     line-height: 29px;
     overflow: hidden;
 }
+
+#thephoto { background: url(../img/camera.png) center center no-repeat #eee; background-size: 25% 25%; margin: 0; padding: 0; }
+#thephoto img { width: 100%; height: auto; margin: 0; padding: 0; }

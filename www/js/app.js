@@ -151,18 +151,21 @@ ploppin.controller('CameraController', function ($scope, $state, $ionicHistory, 
       allowEdit: true,
       encodingType: Camera.EncodingType.JPEG,
       popoverOptions: CameraPopoverOptions,
-      targetWidth: 300,
-      targetHeight: 300,
+      targetWidth: 1000,
+      targetHeight: 1000,
+      cameraDirection: 1,
       saveToPhotoAlbum: false
     };
+    $scope.getPhoto = function() {
     $cordovaCamera.getPicture(options).then(function (imageData) {
         $scope.thephoto = function() {
 		    return "data:image/jpeg;base64,"+imageData;
 		  };
         $scope.photo = imageData;
     }, function (error) {
-      $state.go('tab.feed');
+      alert(error);
     });
+    };
    $scope.submitpost = function (photo, caption) {
     syncArray.$add({ user: fbAuth.uid, image: photo, caption: caption, timestamp: Firebase.ServerValue.TIMESTAMP }).then(function () {
       $state.go('tab.feed');

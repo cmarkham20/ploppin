@@ -970,7 +970,6 @@
 2015-04-20 14:21:20.516 plopp[9738:17418295] Resetting plugins due to page load.
 2015-04-20 14:21:21.318 plopp[9738:17418295] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/2932F286-B311-4283-A8B7-0393150F9C70/plopp.app/www/index.html#/first
 2015-04-20 14:21:26.055 plopp[9738:17418832] Camera.getPicture: source type 1 not available.
-<<<<<<< Updated upstream
 2015-04-20 20:25:54.769 plopp[28749:351531] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/chrismarkham/Library/Developer/CoreSimulator/Devices/2BAE4FB9-F39E-4960-9C2D-CE1A3C56AEBC/data/Containers/Data/Application/17432FEC-DC61-4BFF-907D-6E490E05C52B/Library/Cookies/Cookies.binarycookies
 2015-04-20 20:25:55.119 plopp[28749:351531] Apache Cordova native platform version 3.8.0 is starting.
 2015-04-20 20:25:55.120 plopp[28749:351531] Multi-tasking -> Device: YES, App: YES
@@ -1324,34 +1323,86 @@
 2015-04-20 21:42:09.501 plopp[34547:388817] Resetting plugins due to page load.
 2015-04-20 21:42:09.855 plopp[34547:388817] Finished load of: file:///Users/chrismarkham/Library/Developer/CoreSimulator/Devices/2BAE4FB9-F39E-4960-9C2D-CE1A3C56AEBC/data/Containers/Bundle/Application/3F98F43E-3DFE-4CB3-A7EC-DEE7482CA244/plopp.app/www/index.html#/first
 2015-04-20 21:42:13.767 plopp[34547:388826] Camera.getPicture: source type 1 not available.
-=======
-2015-04-20 17:05:40.578 plopp[13770:18098380] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/6D4A3F11-9EF4-4D4D-9F75-90FAB6F54C27/Library/Cookies/Cookies.binarycookies
-2015-04-20 17:05:40.806 plopp[13770:18098380] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-20 17:05:40.806 plopp[13770:18098380] Multi-tasking -> Device: YES, App: YES
-2015-04-20 17:05:40.816 plopp[13770:18098380] Unlimited access to network resources
-2015-04-20 17:05:40.923 plopp[13770:18098380] [CDVTimer][keyboard] 0.050962ms
-2015-04-20 17:05:41.094 plopp[13770:18098380] [CDVTimer][statusbar] 170.721054ms
-2015-04-20 17:05:41.094 plopp[13770:18098380] [CDVTimer][TotalPluginStartup] 171.050966ms
-2015-04-20 17:05:41.454 plopp[13770:18098380] Resetting plugins due to page load.
-2015-04-20 17:05:41.858 plopp[13770:18098380] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/290E038E-6255-4F1A-AF6C-E9DA510398F3/plopp.app/www/index.html#/first
-2015-04-20 17:08:21.465 plopp[13770:18117498] Terminating since there is no system app.
-2015-04-20 17:08:21.594 plopp[13770:18117499] BSXPCMessage received error for message: Connection invalid
->>>>>>> Stashed changes
-2015-04-21 08:27:12.335 plopp[30122:18368358] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/17410037-D46A-4A36-A447-77C42FF14BAF/Library/Cookies/Cookies.binarycookies
-2015-04-21 08:27:12.735 plopp[30122:18368358] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-21 08:27:12.736 plopp[30122:18368358] Multi-tasking -> Device: YES, App: YES
-2015-04-21 08:27:12.771 plopp[30122:18368358] Unlimited access to network resources
-2015-04-21 08:27:13.178 plopp[30122:18368358] [CDVTimer][keyboard] 0.056982ms
-2015-04-21 08:27:13.345 plopp[30122:18368358] [CDVTimer][statusbar] 166.768014ms
-2015-04-21 08:27:13.345 plopp[30122:18368358] [CDVTimer][TotalPluginStartup] 167.143047ms
-2015-04-21 08:27:13.612 plopp[30122:18368358] Resetting plugins due to page load.
-2015-04-21 08:27:14.084 plopp[30122:18368358] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/2B4839B7-E2C9-4803-B0C4-844834155C1E/plopp.app/www/index.html#/first
-2015-04-21 09:03:28.715 plopp[32102:18613809] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/02659927-F67E-4466-83C3-3C04E2FEA238/Library/Cookies/Cookies.binarycookies
-2015-04-21 09:03:29.037 plopp[32102:18613809] Apache Cordova native platform version 3.8.0 is starting.
-2015-04-21 09:03:29.037 plopp[32102:18613809] Multi-tasking -> Device: YES, App: YES
-2015-04-21 09:03:29.051 plopp[32102:18613809] Unlimited access to network resources
-2015-04-21 09:03:29.188 plopp[32102:18613809] [CDVTimer][keyboard] 0.054002ms
-2015-04-21 09:03:29.432 plopp[32102:18613809] [CDVTimer][statusbar] 243.028998ms
-2015-04-21 09:03:29.432 plopp[32102:18613809] [CDVTimer][TotalPluginStartup] 243.386984ms
-2015-04-21 09:03:29.833 plopp[32102:18613809] Resetting plugins due to page load.
-2015-04-21 09:03:31.249 plopp[32102:18613809] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/BE2DF2E8-B31F-4D3C-93CF-CDD5D155D82D/plopp.app/www/index.html#/tab/feed
+2015-04-21 14:33:08.110 plopp[42513:20383478] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/0EE9B603-D6B3-4A64-B455-DDE9280706C5/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:33:08.255 plopp[42513:20383478] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:33:08.255 plopp[42513:20383478] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:33:08.269 plopp[42513:20383478] Unlimited access to network resources
+2015-04-21 14:33:08.403 plopp[42513:20383478] [CDVTimer][keyboard] 0.059009ms
+2015-04-21 14:33:08.656 plopp[42513:20383478] [CDVTimer][statusbar] 253.233016ms
+2015-04-21 14:33:08.656 plopp[42513:20383478] [CDVTimer][TotalPluginStartup] 253.587961ms
+2015-04-21 14:33:09.009 plopp[42513:20383478] Resetting plugins due to page load.
+2015-04-21 14:33:09.397 plopp[42513:20383478] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/BBC1422F-5974-4ABC-A166-8D02B1796B8E/plopp.app/www/index.html#/first
+2015-04-21 14:33:17.492 plopp[42513:20383478] THREAD WARNING: ['Keyboard'] took '38.299072' ms. Plugin should use a background thread.
+2015-04-21 14:33:18.159 plopp[42513:20384017] Camera.getPicture: source type 1 not available.
+2015-04-21 14:37:35.312 plopp[42954:20411424] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/E4517D5D-B900-4CC3-8511-C58DC4621668/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:37:35.406 plopp[42954:20411424] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:37:35.406 plopp[42954:20411424] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:37:35.408 plopp[42954:20411424] Unlimited access to network resources
+2015-04-21 14:37:35.475 plopp[42954:20411424] [CDVTimer][keyboard] 0.051975ms
+2015-04-21 14:37:35.489 plopp[42954:20411424] [CDVTimer][statusbar] 13.882995ms
+2015-04-21 14:37:35.489 plopp[42954:20411424] [CDVTimer][TotalPluginStartup] 14.253020ms
+2015-04-21 14:37:35.552 plopp[42954:20411424] Resetting plugins due to page load.
+2015-04-21 14:37:35.808 plopp[42954:20411424] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/EAFC7D45-2E4E-4481-9473-8644F669053D/plopp.app/www/index.html#/tab/feed
+2015-04-21 14:37:37.535 plopp[42954:20411467] Camera.getPicture: source type 1 not available.
+2015-04-21 14:39:29.072 plopp[43141:20425207] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/FBB2C9B5-7519-4CB2-A04C-57F7AE3A13A1/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:39:29.172 plopp[43141:20425207] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:39:29.172 plopp[43141:20425207] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:39:29.181 plopp[43141:20425207] Unlimited access to network resources
+2015-04-21 14:39:29.249 plopp[43141:20425207] [CDVTimer][keyboard] 0.066996ms
+2015-04-21 14:39:29.263 plopp[43141:20425207] [CDVTimer][statusbar] 14.352024ms
+2015-04-21 14:39:29.263 plopp[43141:20425207] [CDVTimer][TotalPluginStartup] 14.728010ms
+2015-04-21 14:39:29.328 plopp[43141:20425207] Resetting plugins due to page load.
+2015-04-21 14:39:29.564 plopp[43141:20425207] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/BB522D69-EF5A-49ED-BF35-CCD9F452242C/plopp.app/www/index.html#/first
+2015-04-21 14:40:03.480 plopp[43299:20429365] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/6DD046C6-6885-4AE5-AF58-CD5A5F1AC762/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:40:03.575 plopp[43299:20429365] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:40:03.575 plopp[43299:20429365] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:40:03.577 plopp[43299:20429365] Unlimited access to network resources
+2015-04-21 14:40:03.645 plopp[43299:20429365] [CDVTimer][keyboard] 0.057995ms
+2015-04-21 14:40:03.659 plopp[43299:20429365] [CDVTimer][statusbar] 14.164031ms
+2015-04-21 14:40:03.659 plopp[43299:20429365] [CDVTimer][TotalPluginStartup] 14.548004ms
+2015-04-21 14:40:03.732 plopp[43299:20429365] Resetting plugins due to page load.
+2015-04-21 14:40:03.928 plopp[43299:20429365] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/F1E4E282-A9F0-48FC-BD39-B2868F700BFE/plopp.app/www/index.html#/first
+2015-04-21 14:41:03.676 plopp[43299:20434027] Camera.getPicture: source type 1 not available.
+2015-04-21 14:41:11.346 plopp[43464:20435241] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/DF0BCBA9-DFA0-46C7-A94D-EE9F05A8C27D/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:41:11.436 plopp[43464:20435241] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:41:11.436 plopp[43464:20435241] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:41:11.449 plopp[43464:20435241] Unlimited access to network resources
+2015-04-21 14:41:11.516 plopp[43464:20435241] [CDVTimer][keyboard] 0.063956ms
+2015-04-21 14:41:11.531 plopp[43464:20435241] [CDVTimer][statusbar] 14.504969ms
+2015-04-21 14:41:11.531 plopp[43464:20435241] [CDVTimer][TotalPluginStartup] 14.901996ms
+2015-04-21 14:41:11.593 plopp[43464:20435241] Resetting plugins due to page load.
+2015-04-21 14:41:11.795 plopp[43464:20435241] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/C69020AD-FDDC-4372-B48C-6506200255D2/plopp.app/www/index.html#/first
+2015-04-21 14:41:20.080 plopp[43464:20435253] Camera.getPicture: source type 1 not available.
+2015-04-21 14:42:21.356 plopp[43660:20441113] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/E0333A3F-6597-420B-A5D5-8520C39C01EA/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:42:21.433 plopp[43660:20441113] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:42:21.434 plopp[43660:20441113] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:42:21.436 plopp[43660:20441113] Unlimited access to network resources
+2015-04-21 14:42:21.543 plopp[43660:20441113] [CDVTimer][keyboard] 0.060022ms
+2015-04-21 14:42:21.557 plopp[43660:20441113] [CDVTimer][statusbar] 13.921976ms
+2015-04-21 14:42:21.557 plopp[43660:20441113] [CDVTimer][TotalPluginStartup] 14.302969ms
+2015-04-21 14:42:21.630 plopp[43660:20441113] Resetting plugins due to page load.
+2015-04-21 14:42:22.008 plopp[43660:20441113] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/44D25144-B8B4-4C10-9B57-DEBD4B095E79/plopp.app/www/index.html#/first
+2015-04-21 14:42:28.243 plopp[43660:20441127] Camera.getPicture: source type 1 not available.
+2015-04-21 14:56:08.690 plopp[45686:20529206] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/A8432CD4-500C-4325-92A2-BFB3BE6AC1C4/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:56:08.788 plopp[45686:20529206] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:56:08.789 plopp[45686:20529206] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:56:08.798 plopp[45686:20529206] Unlimited access to network resources
+2015-04-21 14:56:08.898 plopp[45686:20529206] [CDVTimer][keyboard] 0.048995ms
+2015-04-21 14:56:08.958 plopp[45686:20529206] [CDVTimer][statusbar] 59.403002ms
+2015-04-21 14:56:08.958 plopp[45686:20529206] [CDVTimer][TotalPluginStartup] 59.751034ms
+2015-04-21 14:56:09.037 plopp[45686:20529206] Resetting plugins due to page load.
+2015-04-21 14:56:09.386 plopp[45686:20529206] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/18D49C92-6FA9-4A33-9BD2-491CB9FE1DD1/plopp.app/www/index.html#/first
+2015-04-21 14:56:11.303 plopp[45686:20529473] Camera.getPicture: source type 1 not available.
+2015-04-21 14:56:54.459 plopp[45866:20536608] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Data/Application/05F8C6C2-AAEB-42F6-998C-4E6187F13D95/Library/Cookies/Cookies.binarycookies
+2015-04-21 14:56:54.541 plopp[45866:20536608] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-21 14:56:54.541 plopp[45866:20536608] Multi-tasking -> Device: YES, App: YES
+2015-04-21 14:56:54.543 plopp[45866:20536608] Unlimited access to network resources
+2015-04-21 14:56:54.610 plopp[45866:20536608] [CDVTimer][keyboard] 0.060022ms
+2015-04-21 14:56:54.624 plopp[45866:20536608] [CDVTimer][statusbar] 14.284015ms
+2015-04-21 14:56:54.624 plopp[45866:20536608] [CDVTimer][TotalPluginStartup] 14.653027ms
+2015-04-21 14:56:54.689 plopp[45866:20536608] Resetting plugins due to page load.
+2015-04-21 14:56:54.934 plopp[45866:20536608] Finished load of: file:///Users/cmarkham/Library/Developer/CoreSimulator/Devices/EB9010BB-75C2-4233-9EC0-44ACEA44DD99/data/Containers/Bundle/Application/F4B2357D-2A6F-402B-B242-F578B6FD41FA/plopp.app/www/index.html#/tab/feed
+2015-04-21 14:56:56.507 plopp[45866:20536657] Camera.getPicture: source type 1 not available.
+2015-04-21 14:57:01.563 plopp[45866:20536651] Camera.getPicture: source type 1 not available.
+2015-04-21 14:57:10.295 plopp[45866:20536652] Camera.getPicture: source type 1 not available.
+2015-04-21 14:57:19.030 plopp[45866:20536672] Terminating since there is no system app.
